@@ -1,0 +1,49 @@
+::after, ::before, *{
+  margin:0;
+  padding: 0;
+  /* border: none; */
+  box-sizing: border-box;
+}
+
+:root{
+  --bg: #ddd;
+  --noir:#000;
+  --border:#bbb;
+
+}
+
+.contains{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  margin: 100px 0;
+}
+
+/* style sur le header */
+.schoolName{
+  display: flex;
+  flex-direction: row;
+}
+
+img{
+  width: 80px;
+  height: auto;
+}
+
+h1{
+  text-transform: uppercase;
+  font-size: 22px;
+}
+
+/* style sur le premier tableau */
+table{
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px 0;
+}
+
+td, th{
+  text-align: center;
+  font-size: 17px;
+}
