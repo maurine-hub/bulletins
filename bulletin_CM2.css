@@ -8,7 +8,7 @@
 :root{
   --bg: #ddd;
   --noir:#000;
-  --border:#bbb;
+  --border:#777;
 
 }
 
@@ -17,33 +17,72 @@
   flex-direction: column;
   width: 100%;
   align-items: center;
-  margin: 100px 0;
+  margin: 100px auto;
+  text-align: center;
+}
+
+.header{
+  width: 70%;
 }
 
 /* style sur le header */
 .schoolName{
   display: flex;
   flex-direction: row;
+  margin-bottom: 30px;
+  align-items: start;
 }
 
 img{
   width: 80px;
-  height: auto;
+  height: 80px;
 }
 
 h1{
   text-transform: uppercase;
-  font-size: 22px;
+  font-size: 20px;
+  margin: 0 0 20px 0;
 }
-
+h2{
+  text-transform: uppercase;
+  font-size: 20px;
+  margin: 20px 0;
+}
+p{
+  font-size: 17px;
+}
 /* style sur le premier tableau */
 table{
   border-collapse: collapse;
   width: 100%;
-  margin: 20px 0;
+  /* margin: 30px 0; */
+}
+
+.bg{
+  background-color: var(--bg);
+}
+.pd{
+  padding: 3px;
 }
 
 td, th{
   text-align: center;
-  font-size: 17px;
+  font-size: 16px;
+  border: 2px solid var(--border);
+  padding: 3px;
+  text-transform: capitalize;
+}
+
+/* style sur la section2 */
+
+.section2{
+  width: 70%;
+  /* text-align: center; */
+}
+
+.tr td, .span{
+  text-transform: uppercase;
+}
+#code{
+  text-transform: lowercase;
 }
