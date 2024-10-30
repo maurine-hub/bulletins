@@ -1,0 +1,153 @@
+::after, ::before, *{
+  border: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contains{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 100px 0;
+}
+
+.header{
+  display:flex;
+  flex-direction: row;
+  align-items: start;
+  max-width:820px ;
+}
+
+img{
+  width: 80px;
+  height: auto;
+}
+
+.title{
+  font-size: 19px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+.info p{
+  margin-left: 10px;
+}
+.identity {
+  min-width: 66%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.first-table th{
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.code{
+  margin-left: 30px;
+  font-weight: 700;
+  align-items: center;
+}
+.ligne2{
+  font-weight: 700;
+}
+
+.bulletin {
+  max-width: 830px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 19px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+h2 {
+  text-align: center;
+  font-size: 17px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.name{
+  text-transform: uppercase;
+}
+.childName{
+  text-transform: capitalize;
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  border: 1.5px solid black;
+  padding: 8px;
+  text-align: center;
+  font-size: 15px;
+  font-weight:500;
+}
+
+/* Legend table specific styles */
+/* .legend {
+  margin: 0;
+  border: 1.5px solid #000;
+  border-bottom: none;
+} */
+
+
+/* Main table specific styles */
+
+.domain td {
+  background-color: #ddd;
+  /* font-weight: bold; */
+}
+.bg th, .bg td{
+background-color: #ddd;
+}
+.domain1 td {
+  background-color: #ddd;
+  text-transform: uppercase;
+}
+
+/* Colored dots */
+.green {
+  color: green;
+  font-size: 30px;
+}
+
+.yellow {
+  color: #FFD700;
+  font-size: 30px;
+}
+
+.red {
+  color: red;
+  font-size: 30px;
+}
+
+/* Decision table styles */
+/* .decision-table td, .decision-table th {
+  text-align: center;
+  height: 40px;
+} */
+
+/* Row colors */
+tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+/* tr:nth-child(odd) {
+  background-color: #f9f9f9;
+} */
+
+.sum th{
+  background-color: #ddd;
+  font-weight: 700;
+}
